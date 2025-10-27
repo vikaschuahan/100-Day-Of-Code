@@ -1,5 +1,51 @@
+# ╔════════════════════════════════════════════════════════════╗
+# ║  🎨 Colorful & Unique GitHub Daily Push Commands (PS)      ║
+# ╚════════════════════════════════════════════════════════════╝
+# Repo: d:\100 days Of Code
+# Tip: Copy one block at a time into the VS Code Terminal (PowerShell).
+# ---------------------------------------------------------------------
+
+# 1) 🌞 Push with auto date message
 cd "d:\100 days Of Code"
 git pull --rebase
 git add -A
 git commit -m "Daily update: $(Get-Date -Format yyyy-MM-dd)"
 git push
+
+# 2) ✍️ Push with your own message (replace text between quotes)
+cd "d:\100 days Of Code"
+git pull --rebase
+git add -A
+git commit -m "Comand File Of GitHub"
+git push
+
+# 3) 🤫 Push with no commit message (allowed but not recommended)
+cd "d:\100 days Of Code"
+git pull --rebase
+git add -A
+git commit --allow-empty-message -m ""
+git push
+
+# 4) 📁 Push only a specific folder (example: Day-1)
+cd "d:\100 days Of Code"
+git pull --rebase
+git add "Day-1 JavaScript Project Build a GUI Calculator/*"
+git commit -m "Update Day-1"
+git push
+
+# 5) 🗣️ Push with comment (interactive prompt)
+cd "d:\100 days Of Code"
+git pull --rebase
+git add -A
+$MSG = Read-Host "Enter commit message (leave blank to use today's date)"
+if ([string]::IsNullOrWhiteSpace($MSG)) { $MSG = "Daily update: $(Get-Date -Format yyyy-MM-dd)" }
+git commit -m "$MSG"
+git push
+
+# 🔁 First-time only (if upstream not set)
+# git push -u origin main
+
+# ✅ Quick checks
+# git status
+# git remote -v
+# git log --oneline -5
