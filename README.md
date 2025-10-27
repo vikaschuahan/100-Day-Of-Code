@@ -1,2 +1,3 @@
-# 100-Day-Of-Code
-upload 100 Day Without intrupt dakkiy code push
+# 100 Day Of Code
+
+This is a 100‑day coding challenge (MysirG YouTube). Learn daily and push code to GitHub.
