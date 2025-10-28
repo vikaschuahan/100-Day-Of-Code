@@ -1,3 +1,4 @@
-# 100 Day Of Code
+This Is 100 Day code challage frome MysirG Youtube chanal for consitant and daliy code push and learn.
 
-This is a 100‑day coding challenge (MysirG YouTube). Learn daily and push code to GitHub.
+Daliy Learn something new and push it in github
+https://github.com/vikaschuahan/100-Day-Of-Code.git
