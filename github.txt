@@ -1,5 +1,5 @@
 cd "d:\100 days Of Code"
 git pull            # uses rebase + autostash from config
 git add -A          # stages new/changed/renamed/deleted files and folders
-git commit  -m "DAY"   # or use -m "Daily update"
+git commit  -m ""   # or use -m "Daily update"
 git push
