@@ -8,7 +8,7 @@ Upload 100 days of code without interruption. New projects and code snippets pus
 - Push code every day (no breaks)
 - Learn something new daily
 - Maintain code quality
-- Document progress
+- Document progresss
 
 ### Completed Days
 - ✅ Day-1: GUI Calculator
