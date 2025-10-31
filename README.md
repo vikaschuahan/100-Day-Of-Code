@@ -1,13 +1,20 @@
 # 100 Day Of Code
 
-Daily code push - Upload 100 days of code without interruption.
-This repository contains daily learning projects and coding challenges.
+**Daily Code Push Challenge**
 
-## Daily Progress
-- Day-1: JavaScript Calculator (HTML, CSS, JS)
-- Day-2: Singly Linked List in JavaScript
-- Day-3: Soft Keywords in Python
-- Day-4: Python's Walrus Operator
-- Day-5: Doubly Linked List in JavaScript
+Upload 100 days of code without interruption. New projects and code snippets pushed daily to GitHub.
 
-**Note:** New code pushed daily to maintain consistency.
+### Challenge Rules
+- Push code every day (no breaks)
+- Learn something new daily
+- Maintain code quality
+- Document progress
+
+### Completed Days
+- ✅ Day-1: GUI Calculator
+- ✅ Day-2: Linked List
+- ✅ Day-3: Python Keywords
+- ✅ Day-4: Walrus Operator
+- ✅ Day-5: Doubly Linked List
+
+**Goal:** Complete 100 days of consistent coding!
