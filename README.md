@@ -16,5 +16,6 @@ Upload 100 days of code without interruption. New projects and code snippets pus
 - ✅ Day-3: Python Keywords
 - ✅ Day-4: Walrus Operator
 - ✅ Day-5: Doubly Linked List
+-     day-6
 
 **Goal:** Complete 100 days of consistent coding!
