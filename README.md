@@ -1,30 +1,54 @@
-# 100 Day Of Code
+# 100 Day Of Code Challenge 🚀
 
-**Daily Code Push Challenge**
+![Days Completed](https://img.shields.io/badge/Days%20Completed-7%2F100-blue)
+![Language](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Upload 100 days of code without interruption. New projects and code snippets pushed daily to GitHub.
+**Daily Code Push Challenge** - Upload 100 days of code without interruption. New projects and code snippets pushed daily to GitHub.
 
-### Challenge Rules
-- Push code every day (no breaks)
-- Learn something new daily
-- Maintain code quality
-- Document progress
+## 📋 Challenge Rules
+- ✅ Push code every day (no breaks)
+- ✅ Learn something new daily
+- ✅ Maintain code quality
+- ✅ Document progress
 
-### Completed Days
-<<<<<<< Updated upstream
-- ✅ Day-1: GUI Calculator
-- ✅ Day-2: Linked List
-- ✅ Day-3: Python Keywords
-- ✅ Day-4: Walrus Operator
-- ✅ Day-5: Doubly Linked List
--     day-6
-=======
-- ✅ Day-1: GUI Calculator (HTML, CSS, JS)
-- ✅ Day-2: Singly Linked List (JavaScript)
-- ✅ Day-3: Soft Keywords in Python
-- ✅ Day-4: Walrus Operator (Python)
-- ✅ Day-5: Doubly Linked List (JavaScript)
-- ✅ Day-6: Monkey Patching (Python)
->>>>>>> Stashed changes
+## 📚 Completed Days
 
-**Goal:** Complete 100 days of consistent coding!
+| Day | Topic | Language | Status |
+|-----|-------|----------|--------|
+| 1 | GUI Calculator | HTML, CSS, JS | ✅ |
+| 2 | Singly Linked List | JavaScript | ✅ |
+| 3 | Soft Keywords | Python | ✅ |
+| 4 | Walrus Operator | Python | ✅ |
+| 5 | Doubly Linked List | JavaScript | ✅ |
+| 6 | Monkey Patching | Python | ✅ |
+| 7 | [Your Day 7 Topic] | [Language] | ✅ |
+
+## 📊 Progress
+```
+Progress: [███████░░░░░░░░░░░░░░░░░░░░░░░] 7%
+Days completed: 7 / 100
+Current streak: 7 days 🔥
+```
+
+## 🎯 Goal
+Complete 100 days of consistent coding and build a strong portfolio!
+
+## 🛠️ Technologies Used
+- JavaScript (Node.js, DOM manipulation)
+- Python 3.10+ (Pattern matching, operators)
+- HTML5 & CSS3
+- Data Structures & Algorithms
+
+## 📌 Daily Push Command
+```powershell
+cd "d:\100 days Of Code"
+git pull
+git add -A
+git commit -m "Day X: Topic description"
+git push
+```
+
+---
+**Started:** November 2024  
+**Repository:** [100-Day-Of-Code](https://github.com/vikaschuahan/100-Day-Of-Code)
