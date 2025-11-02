@@ -22,7 +22,7 @@
 | 4 | Walrus Operator | Python | ✅ |
 | 5 | Doubly Linked List | JavaScript | ✅ |
 | 6 | Monkey Patching | Python | ✅ |
-| 7 | [Your Day 7 Topic] | [Language] | ✅ |
+| 7 | File Handling | Python | ✅ |  
 
 ## 📊 Progress
 ```
