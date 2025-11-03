@@ -1,6 +1,6 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-7%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-8%2F100-blue)
 ![Language](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
@@ -22,13 +22,14 @@
 | 4 | Walrus Operator | Python | ✅ |
 | 5 | Doubly Linked List | JavaScript | ✅ |
 | 6 | Monkey Patching | Python | ✅ |
-| 7 | File Handling | Python | ✅ |  
+| 7 | File Handling | Python | ✅ |
+| 8 | File-Based CRUD App | Python | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████░░░░░░░░░░░░░░░░░░░░░░░] 7%
-Days completed: 7 / 100
-Current streak: 7 days 🔥
+Progress: [████████░░░░░░░░░░░░░░░░░░░░░░] 8%
+Days completed: 8 / 100
+Current streak: 8 days 🔥
 ```
 
 ## 🎯 Goal
@@ -36,7 +37,7 @@ Complete 100 days of consistent coding and build a strong portfolio!
 
 ## 🛠️ Technologies Used
 - JavaScript (Node.js, DOM manipulation)
-- Python 3.10+ (Pattern matching, operators)
+- Python 3.10+ (Pattern matching, operators, file I/O)
 - HTML5 & CSS3
 - Data Structures & Algorithms
 
