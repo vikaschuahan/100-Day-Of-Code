@@ -1,6 +1,6 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-8%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-9%2F100-blue)
 ![Language](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
@@ -24,12 +24,13 @@
 | 6 | Monkey Patching | Python | ✅ |
 | 7 | File Handling | Python | ✅ |
 | 8 | File-Based CRUD App | Python | ✅ |
+| 9 | [Your Day 9 Topic] | [Language] | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████░░░░░░░░░░░░░░░░░░░░░░] 8%
-Days completed: 8 / 100
-Current streak: 8 days 🔥
+Progress: [█████████░░░░░░░░░░░░░░░░░░░░░] 9%
+Days completed: 9 / 100
+Current streak: 9 days 🔥
 ```
 
 ## 🎯 Goal
@@ -46,7 +47,7 @@ Complete 100 days of consistent coding and build a strong portfolio!
 cd "d:\100 days Of Code"
 git pull
 git add -A
-git commit -m "Day X: Topic description"
+git commit -m "Day 9: Update README with progress"
 git push
 ```
 
