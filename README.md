@@ -4,16 +4,15 @@
 ![Language](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-**Daily Code Push Challenge** - Upload 100 days of code without interruption. New projects and code snippets pushed daily to GitHub.
+Daily Code Push Challenge — ship code every day.
 
 ## 📋 Challenge Rules
-- ✅ Push code every day (no breaks)
-- ✅ Learn something new daily
-- ✅ Maintain code quality
-- ✅ Document progress
+- Push code every day
+- Learn something new
+- Keep code readable
+- Write a short note
 
 ## 📚 Completed Days
-
 | Day | Topic | Language | Status |
 |-----|-------|----------|--------|
 | 1 | GUI Calculator | HTML, CSS, JS | ✅ |
@@ -24,13 +23,13 @@
 | 6 | Monkey Patching | Python | ✅ |
 | 7 | File Handling | Python | ✅ |
 | 8 | File-Based CRUD App | Python | ✅ |
-| 9 | [Your Day 9 Topic] | [Language] | ✅ |
+| 9 | Stack in Java Script | JavaScript | ✅ |
 
 ## 📊 Progress
 ```
 Progress: [█████████░░░░░░░░░░░░░░░░░░░░░] 9%
 Days completed: 9 / 100
-Current streak: 9 days 🔥
+Streak: 9 days
 ```
 
 ## 🎯 Goal
