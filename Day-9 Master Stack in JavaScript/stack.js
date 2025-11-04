@@ -1,35 +1,33 @@
-class stack{
+// Simple stack using an array
+class Stack {
     constructor() {
-        this.items=[]
-        
+        this.items = []; // internal storage
     }
-    push(element){
-        this.items.push(element);
-     }
-
-    peek(){
-        if(this.isEmpty()){
-            return null;
-        }
-        return this.items[this.items.length-1];
+    push(element) {
+        this.items.push(element); // add on top
     }
-    pop(){
-        if(this.isEmpty()){
-            return null;
-        }
-        const removedElement=this.items.pop();
-        return removedElement;
+    peek() {
+        return this.isEmpty() ? null : this.items[this.items.length - 1]; // look at top
     }
-    isEmpty(){
-        return this.items.length===0;
+    pop() {
+        return this.isEmpty() ? null : this.items.pop(); // remove top
     }
-    getSize(){
-        return this.items.length;
+    isEmpty() {
+        return this.items.length === 0; // no items?
+    }
+    getSize() {
+        return this.items.length; // current count
     }
 }
 
-
-const stack = new stack();
+// quick demo
+const stack = new Stack();
 stack.push(10);
 stack.push(20);
-stack
+stack.push(30);
+stack.push(40);
+
+console.log('Top Element = ' + stack.peek());
+const x = stack.pop();
+console.log('Removed Element = ' + x);
+console.log('Top Element = ' + stack.peek());
