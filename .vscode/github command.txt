@@ -7,7 +7,7 @@
 
 # 1) 🌞 Push with auto date message
 cd "d:\100 days Of Code"
-git pull --rebase
+git pull --rebase 
 git add -A
 git commit -m "Daily update: $(Get-Date -Format yyyy-MM-dd)"
 git push

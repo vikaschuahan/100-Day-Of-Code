@@ -13,7 +13,7 @@ Daily Code Push Challenge — ship code every day.
 - Write a short note
 
 ## 📚 Completed Days
-| Day | Topic | Language | Status |
+| Day | Topic | Language | Status |  
 |-----|-------|----------|--------|
 | 1 | GUI Calculator | HTML, CSS, JS | ✅ |
 | 2 | Singly Linked List | JavaScript | ✅ |
