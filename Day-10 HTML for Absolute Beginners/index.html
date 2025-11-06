@@ -1,13 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Day 10 — HTML Basics</title>
-</head>
-<body>
-    <h1>welcome</h1>
-   
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Day 10 — HTML Basics</title>
+  </head>
+  <body>
+    <!-- Headings -->
+    <h1>Welcome to HTML Basics</h1>
+    <h2>Learning fundamental HTML tags</h2>
 
-</body>
+    <!-- Paragraph -->
+    <p>
+      This is a sample paragraph demonstrating basic HTML structure.
+      HTML stands for HyperText Markup Language and is used to create web pages.
+    </p>
+
+    <!-- Unordered list -->
+    <h3>Beverages Menu</h3>
+    <ul>
+      <li>Tea</li>
+      <li>Black Coffee</li>
+      <li>Cappuccino</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <h3>Laptop Brands</h3>
+    <ol>
+      <li>Dell</li>
+      <li>HP</li>
+      <li>Asus</li>
+      <li>Lenovo</li>
+    </ol>
+
+    <!-- Link (fixed - added https://) -->
+    <h3>External Link</h3>
+    <a href="https://google.com" target="_blank">Visit Google</a>
+
+    <!-- Image -->
+    <h3>Sample Image</h3>
+    <img src="pic.jpg" alt="Sample image" width="300" />
+
+    <!-- Table (fixed closing tag on row 2) -->
+    <h3>Student Data Table</h3>
+    <table border="1">
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Vikas</td>
+        <td>Jetpur</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rohit</td>
+        <td>Junagadh</td> <!-- fixed closing tag -->
+        <td>52</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Dhaval</td>
+        <td>Rajkot</td>
+        <td>22</td>
+      </tr>
+    </table>
+
+    <!-- Form with all input types from the image -->
+    <h3>Registration Form</h3>
+    <form action="">
+      <!-- Text input -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br />
+
+      <!-- Password input -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br />
+
+      <!-- Radio buttons (grouped by name) -->
+      <label for="gender">Gender:</label><br />
+      Male<input type="radio" name="gender" value="male" />
+      Female<input type="radio" name="gender" value="female" /><br />
+
+      <!-- Dropdown/Select -->
+      <label for="city">City:</label>
+      <select name="city" id="city">
+        <option value="">-Bhopal</option>
+        <option value="pune">-Pune</option>
+        <option value="jaipur">-Jaipur</option>
+        <option value="mumbai">-Mumbai</option>
+      </select><br />
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
