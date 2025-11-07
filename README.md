@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-11%2F100-blue)
-![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML-orange)
-![Status](https://img.shields.io/badge/Streak-11_days-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-12%2F100-blue)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS-orange)
+![Status](https://img.shields.io/badge/Streak-12_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -26,26 +26,27 @@ Daily Code Push Challenge — ship code every day.
 | 9 | Stack (Array-based) | JavaScript | ✅ |
 | 10 | HTML Basics (Forms, Lists, Tables) | HTML | ✅ |
 | 11 | Queue (Array-based) | JavaScript | ✅ |
+| 12 | CSS in ONE SHOT (Box Model, Flexbox) | CSS | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████████░░░░░░░░░░░░░░░░░░] 11%
-Days completed: 11 / 100
-Streak: 11 days 🔥
+Progress: [████████████░░░░░░░░░░░░░░░░░] 12%
+Days completed: 12 / 100
+Streak: 12 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Data Structures: Stack, Queue, Linked Lists)
 - Python (Operators, File I/O, Monkey Patching, CRUD)
 - HTML (Forms, Lists, Tables, Basic Structure)
-- CSS (minor styling in earlier projects)
+- CSS (Box Model, Flexbox)
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
 git add -A
-git commit -m "Day 11: Queue (JS)"
+git commit -m "Day 12: CSS in ONE SHOT — box model + flexbox"
 git push
 ```
 
