@@ -5,58 +5,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* center main title */* center main title */
-#main-title { {
+/* center main title */
+#main-title {
   text-align: center;
 }
 
-/* inline highlight chip */* inline highlight chip */
-.highlight {.highlight {
-  background-color: yellow;ckground-color: yellow;
-  color: orangered;;
+/* inline highlight chip */
+.highlight {
+  background-color: yellow;
+  color: orangered;
   padding: 5px;
 }
 
-/* Box Model demo row */ row */
+/* Box Model demo row */
 #d1 {
   display: flex;
-  justify-content: center;: center;
+  justify-content: center;
 }
 
-/* box showing margin/padding/border *//* box showing margin/padding/border */
-.box {box {
+/* box showing margin/padding/border */
+.box {
   width: 250px;
   height: 100px;
-  background-color: hotpink;tpink;
+  background-color: hotpink;
   margin: 10px;
   padding: 10px;
   border: 5px solid maroon;
 }
 
-/* Flexbox container *//* Flexbox container */
-.Flex-container {iner {
-  display: flex;
-  min-height: 200px;x;
-  background-color: gray; gray;
-  padding: 10px;
-  justify-content: center; justify-content: center;
-  gap: 10px; /* space between cards */  gap: 10px; /* space between cards */
-
-
-
-
-
-
-
-
-
-
-}  width: 300px;  font-size: 20px;  padding: 10px;  background-color: navy;.Flex-item {/* Flexbox item card */}}
-
-/* Flexbox item card */
-.Flex-item {
-  background-color: navy;
-  padding: 10px;
-  font-size: 20px;
-  width: 300px;
+/* Flexbox container */
+.Flex-container {
+    background-color: navy;
+    padding: 10px;
+    font-size:20px;
+    width: 300px;
 }
