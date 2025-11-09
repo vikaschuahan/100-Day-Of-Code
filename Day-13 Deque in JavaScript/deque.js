@@ -1,80 +1,64 @@
-class Deque{
-    constructor(){
-        this.iteams={};
-        this.head=0;
-        this.tail=0;
-
+class Deque {
+    constructor() {
+        this.items = {};   // storage (sparse indexes)
+        this.head = 0;     // front index
+        this.tail = 0;     // next position after last
     }
-    addHead(element){
-    
-            this.head--;
-            this.iteams[this.head]=element;
+    addHead(element) {     // insert at front
+        this.head--;
+        this.items[this.head] = element;
     }
-    addTail(element){
-        this.iteams[this.tail]=element;
+    addTail(element) {     // insert at back
+        this.items[this.tail] = element;
         this.tail++;
-
     }
-    removeHead(){
-        if(this.isEmpty()){
-            return undefined;
-        }
-        const result=this.iteams[this.head];
-        delete this.iteams[this.head];
+    removeHead() {         // remove from front
+        if (this.isEmpty()) return undefined;
+        const value = this.items[this.head];
+        delete this.items[this.head];
         this.head++;
-        if(this.isEmpty()){
-            this.head=0;
-            this.tail=0;
-        }
-        return result;
-
+        if (this.isEmpty()) this.reset();
+        return value;
     }
-    removeTail(){
-        if(this.isEmpty()){
-            return undefined;
-        }
+    removeTail() {         // remove from back
+        if (this.isEmpty()) return undefined;
         this.tail--;
-        const result=this.iteams[this.tail];
-        delete this.iteams[this.tail];
-        if(this.isEmpty()){
-            this.head=0;
-            this.tail=0;
-        }
-        return result;
+        const value = this.items[this.tail];
+        delete this.items[this.tail];
+        if (this.isEmpty()) this.reset();
+        return value;
     }
-    peekHead(){
-        if(this.isEmpty()){
-            return undeerfined;
-        }
-        return this.iteams[this.head];
+    peekHead() {           // view front
+        return this.isEmpty() ? undefined : this.items[this.head];
     }
-    peekTail(){
-        if(this.isEmpty()){
-            return undefined;
-        }
-        return this.iteams[this.tail-1];
+    peekTail() {           // view last
+        return this.isEmpty() ? undefined : this.items[this.tail - 1];
     }
-    isEmpty(){
-        return this.head===this.head===this.tail;
+    isEmpty() {            // no elements?
+        return this.tail === this.head;
     }
-    size(){
-        return this.tail-this.head;
+    size() {               // count
+        return this.tail - this.head;
     }
-    print(){
-        if(this.isEmpty()){
-            console.log("Deque is isEmpty");
+    reset() {              // clear indices
+        this.head = 0;
+        this.tail = 0;
+    }
+    print() {              // show deque
+        if (this.isEmpty()) {
+            console.log("Deque is empty");
             return;
         }
-        let output="";
-        for(let i=this.head;i<this.tail;i++){
-            output+=this.iteams[i]+(i<this.tail-1 ? " <-> ": "");
+        let out = "";
+        for (let i = this.head; i < this.tail; i++) {
+            out += this.items[i] + (i < this.tail - 1 ? " <-> " : "");
         }
-        console.log(output);
+        console.log(out);
     }
-
 }
 
-const d=new Deque();
+// demo
+const d = new Deque();
 d.addTail(10);
 d.addTail(20);
 d.addTail(30);
@@ -83,5 +67,6 @@ d.addHead(50);
 d.removeHead();
 d.removeTail();
 d.print();
+console.log("Front:", d.peekHead(), "Rear:", d.peekTail(), "Size:", d.size());
 
 
