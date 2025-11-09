@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-13%2F100-blue)
-![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS-orange)
-![Status](https://img.shields.io/badge/Streak-13_days-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-14%2F100-blue)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
+![Status](https://img.shields.io/badge/Streak-14_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -28,12 +28,13 @@ Daily Code Push Challenge — ship code every day.
 | 11 | Queue (Array-based) | JavaScript | ✅ |
 | 12 | CSS in ONE SHOT (Box Model, Flexbox) | CSS | ✅ |
 | 13 | Deque (Double-Ended Queue) | JavaScript | ✅ |
+| 14 | Markdown in ONE Shot | Markdown | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [█████████████░░░░░░░░░░░░░░░░░] 13%
-Days completed: 13 / 100
-Streak: 13 days 🔥
+Progress: [██████████████░░░░░░░░░░░░░░░░] 14%
+Days completed: 14 / 100
+Streak: 14 days 🔥
 ```
 
 ## 🛠️ Technologies Used
@@ -41,13 +42,14 @@ Streak: 13 days 🔥
 - Python (Operators, File I/O, Monkey Patching, CRUD)
 - HTML (Forms, Lists, Tables, Basic Structure)
 - CSS (Box Model, Flexbox)
+- Markdown (Documentation, Notes)
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
 git add -A
-git commit -m "Day 13: Deque (JS)"
+git commit -m "Day 14: Markdown in ONE Shot"
 git push
 ```
 
