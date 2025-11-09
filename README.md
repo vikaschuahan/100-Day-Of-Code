@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-12%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-13%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS-orange)
-![Status](https://img.shields.io/badge/Streak-12_days-success)
+![Status](https://img.shields.io/badge/Streak-13_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -27,16 +27,17 @@ Daily Code Push Challenge — ship code every day.
 | 10 | HTML Basics (Forms, Lists, Tables) | HTML | ✅ |
 | 11 | Queue (Array-based) | JavaScript | ✅ |
 | 12 | CSS in ONE SHOT (Box Model, Flexbox) | CSS | ✅ |
+| 13 | Deque (Double-Ended Queue) | JavaScript | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████████░░░░░░░░░░░░░░░░░] 12%
-Days completed: 12 / 100
-Streak: 12 days 🔥
+Progress: [█████████████░░░░░░░░░░░░░░░░░] 13%
+Days completed: 13 / 100
+Streak: 13 days 🔥
 ```
 
 ## 🛠️ Technologies Used
-- JavaScript (Data Structures: Stack, Queue, Linked Lists)
+- JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque)
 - Python (Operators, File I/O, Monkey Patching, CRUD)
 - HTML (Forms, Lists, Tables, Basic Structure)
 - CSS (Box Model, Flexbox)
@@ -46,7 +47,7 @@ Streak: 12 days 🔥
 cd "d:\100 days Of Code"
 git pull
 git add -A
-git commit -m "Day 12: CSS in ONE SHOT — box model + flexbox"
+git commit -m "Day 13: Deque (JS)"
 git push
 ```
 
