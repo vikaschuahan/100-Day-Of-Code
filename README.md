@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-15%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-16%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-15_days-success)
+![Status](https://img.shields.io/badge/Streak-16_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -30,12 +30,13 @@ Daily Code Push Challenge — ship code every day.
 | 13 | Deque (Double-Ended Queue) | JavaScript | ✅ |
 | 14 | Markdown in ONE Shot | Markdown | ✅ |
 | 15 | Markdown to HTML Converter | Python | ✅ |
+| 16 | Min-Heap Data Structure | JavaScript | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████████████░░░░░░░░░░░░░░░] 15%
-Days completed: 15 / 100
-Streak: 15 days 🔥
+Progress: [████████████████░░░░░░░░░░░░░░░] 16%
+Days completed: 16 / 100
+Streak: 16 days 🔥
 ```
 
 ## 🛠️ Technologies Used
@@ -50,7 +51,7 @@ Streak: 15 days 🔥
 cd "d:\100 days Of Code"
 git pull
 git add -A
-git commit -m "Day 15: Markdown to HTML Converter"
+git commit -m "update readme"
 git push
 ```
 
