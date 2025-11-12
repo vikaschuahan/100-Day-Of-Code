@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-16%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-17%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-16_days-success)
+![Status](https://img.shields.io/badge/Streak-17_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -31,18 +31,19 @@ Daily Code Push Challenge — ship code every day.
 | 14 | Markdown in ONE Shot | Markdown | ✅ |
 | 15 | Markdown to HTML Converter | Python | ✅ |
 | 16 | Min-Heap Data Structure | JavaScript | ✅ |
+| 17 | Understood Recursion | Python | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████████████░░░░░░░░░░░░░░░] 16%
-Days completed: 16 / 100
-Streak: 16 days 🔥
+Progress: [█████████████████░░░░░░░░░░░░░░] 17%
+Days completed: 17 / 100
+Streak: 17 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque)
 - Python (Operators, File I/O, Monkey Patching, CRUD, Markdown)
-- HTML (Forms, Lists, Tables, Basic Structure)
+- HTML (Forms, Lists, Tables, Basic Structure , Recursion )
 - CSS (Box Model, Flexbox)
 - Markdown (Documentation, Notes)
 
@@ -61,3 +62,7 @@ Complete 100 days of consistent coding and build a solid learning trail.
 ---
 Started: November 2024  
 Repository: https://github.com/vikaschuahan/100-Day-Of-Code
+git pull
+ git add -A
+ git commit -m "update readme "
+ git push
