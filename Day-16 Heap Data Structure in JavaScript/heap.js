@@ -95,3 +95,4 @@ while(minHeap.size()>0){
     nextMin=minHeap.extractMin();
     console.log('Extracted value:'+nextMin+'| New Root: '+minHeap.peek());
 }
+//heap data sctructure 
