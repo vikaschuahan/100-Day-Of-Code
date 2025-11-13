@@ -39,12 +39,17 @@ class MinHeap {
             const rightChildIndex=this.getRightChildIndex(currentIndex);
             let swapIndex=null;
             if(leftChildIndex<=lastIndex){
-                if(this.heap[leftChildIndex]<this.heap[currentIndex]){
+                if(this.heap[leftChildIndex].priority<this.heap[currentIndex].priority){
                     swapIndex=leftChildIndex;
                 }
             }
             if(rightChildIndex<=lastIndex){
-                if(swapIndex===null && this.heap[rightChildIndex]<this.heap[currentIndex]){
+                const isRightHigherPriority=
+                swapIndex===null || this.heap
+                [rightChildIndex].priority<this.heap
+                [swapIndex].priority;
+
+                if(isRightHigherPriority){
                     swapIndex=rightChildIndex;
                 }
                 else if(swapIndex!==null && this.heap[rightChildIndex]<this.heap[swapIndex]){
@@ -79,6 +84,32 @@ class MinHeap {
         return this.heap.length===0?null:this.heap[0];
     }
 }
+
+class PriorityQueue{
+    constructor(){
+        this.minHeap=new MinHeap();
+    }
+    isEmpty(){
+        return this.this.minHeap.size()===0;
+    }
+    size(){
+        return this.minHeap.size()
+    }
+    enqueue(data,priority){
+        const newItem={data,priority};
+        this.minHeap.insert(newItem);
+    }
+    dequeue(){
+        return this.minHeap.peek();
+    }
+    peek(){
+        return this.minHeap.peek();
+    }
+}
+
+const taskQueue=new PriorityQueue();
+taskQueue.enqueue("Fix Shower")
+
 
 const minHeap=new MinHeap();
 minHeap.insert(12);
