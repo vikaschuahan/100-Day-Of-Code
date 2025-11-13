@@ -90,17 +90,16 @@ class PriorityQueue{
         this.minHeap=new MinHeap();
     }
     isEmpty(){
-        return this.this.minHeap.size()===0;
+        return this.minHeap.size()===0;
     }
     size(){
         return this.minHeap.size()
     }
     enqueue(data,priority){
-        const newItem={data,priority};
-        this.minHeap.insert(newItem);
+        this.minHeap.insert({ data, priority });
     }
     dequeue(){
-        return this.minHeap.peek();
+        return this.minHeap.extractMin(); // remove highest priority
     }
     peek(){
         return this.minHeap.peek();
@@ -108,7 +107,12 @@ class PriorityQueue{
 }
 
 const taskQueue=new PriorityQueue();
-taskQueue.enqueue("Fix Shower")
+taskQueue.enqueue("Fix Shower",7);
+taskQueue.enqueue("Market",3);
+taskQueue.enqueue("vacation Plan",1);
+taskQueue.enqueue("email To Boss",6);
+taskQueue.enqueue("Meeting with an old frind",5);
+taskQueue.enqueue("Go on a Date",4);
 
 
 const minHeap=new MinHeap();
@@ -122,7 +126,7 @@ minHeap.insert(35);
 minHeap.insert(70);
 minHeap.insert(65);
 let nexMin;
-while(minHeap.size()>0){
-    nextMin=minHeap.extractMin();
-    console.log('Extracted value:'+nextMin+'| New Root: '+minHeap.peek());
+while(!taskQueue.isEmpty()){
+    nextTask=taskQueue.dequeue();
+    console.log('Extracted task: ' + nextTask.data + ' | Priority: ' + nextTask.priority);
 }
