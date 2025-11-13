@@ -21,7 +21,7 @@ class MinHeap {
         let currentIndex=index;
         while(currentIndex>0){
             const parentIndex=this.getParentIndex(currentIndex);
-            if(this.heap[currentIndex]<this.heap[parentIndex]){
+            if(this.heap[currentIndex].priority<this.heap[parentIndex].priority){
                 this.swap(currentIndex,parentIndex);
                 currentIndex=parentIndex;
             }
