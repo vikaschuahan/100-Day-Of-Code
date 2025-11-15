@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-19%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-20%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-19_days-success)
+![Status](https://img.shields.io/badge/Streak-20_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -34,12 +34,13 @@ Daily Code Push Challenge — ship code every day.
 | 17 | Understood Recursion | Python | ✅ |
 | 18 | Priority Queue | JavaScript | ✅ |
 | 19 | Set Data Structure (Map-backed) | JavaScript | ✅ |
+| 20 | 10 Best Project Ideas for Beginners | Ideas / Text | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████████████████░░░░░░░░░░] 19%
-Days completed: 19 / 100
-Streak: 19 days 🔥
+Progress: [████████████████████░░░░░░░░░] 20%
+Days completed: 20 / 100
+Streak: 20 days 🔥
 ```
 
 ## 🛠️ Technologies Used
@@ -49,22 +50,36 @@ Streak: 19 days 🔥
 - CSS (Box Model, Flexbox)
 - Markdown (Documentation, Notes)
 
-## 📘 Today (Day 19)
-- Topic: Set Data Structure (implemented using Map)
-- Language used: JavaScript
+## 📘 Today (Day 20)
+- Topic: 10 Best Project Ideas for Beginners
+- Format: Ideas / Planning notes (text)
 - Key concepts learned:
-  - Implementing a Set backed by Map for O(1) add/has/remove
-  - Methods: add, has, remove, size, values
-  - Set operations: union and intersection
-  - Optimization: iterate the smaller set when computing intersection
-  - Using spread operator to convert Map keys to arrays for values
+  - Choosing small, achievable projects to practice fundamentals
+  - Scoping an MVP and listing core features
+  - Mapping each idea to technologies to learn (frontend, backend, APIs)
+  - Breaking a project into milestones and tasks
+
+- Example beginner projects:
+  1. To‑Do List App — CRUD, localStorage
+  2. Weather App — fetch API, async
+  3. Expense Tracker — state management, charts
+  4. Personal Portfolio Website — HTML/CSS, responsive design
+  5. Simple Blog Platform — CRUD, Markdown support
+  6. Quiz App — timers, scoring logic
+  7. Chat App (starter) — Firebase or WebSockets
+  8. Notes App with Search — indexing/filtering
+  9. Recipe Finder — API integration, filters
+  10. URL Shortener (mini) — basic backend, routing
+
+- Next steps:
+  - Pick 1 idea, define MVP, implement first feature, push daily progress.
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
 git add README.md
-git commit -m "Day 19: Set Data Structure (JS) — update README with today's topic"
+git commit -m "Day 20: 10 Best Project Ideas for Beginners — update README with today's topic"
 git push
 ```
 
