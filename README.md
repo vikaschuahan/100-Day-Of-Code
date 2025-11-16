@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-20%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-21%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-20_days-success)
+![Status](https://img.shields.io/badge/Streak-21_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -35,51 +35,40 @@ Daily Code Push Challenge — ship code every day.
 | 18 | Priority Queue | JavaScript | ✅ |
 | 19 | Set Data Structure (Map-backed) | JavaScript | ✅ |
 | 20 | 10 Best Project Ideas for Beginners | Ideas / Text | ✅ |
+| 21 | HashTable with Chaining | JavaScript | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████████████████░░░░░░░░░] 20%
-Days completed: 20 / 100
-Streak: 20 days 🔥
+Progress: [█████████████████████░░░░░░░░] 21%
+Days completed: 21 / 100
+Streak: 21 days 🔥
 ```
 
 ## 🛠️ Technologies Used
-- JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set)
+- JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable)
 - Python (Operators, File I/O, Monkey Patching, CRUD, Markdown)
 - HTML (Forms, Lists, Tables, Basic Structure)
 - CSS (Box Model, Flexbox)
 - Markdown (Documentation, Notes)
 
-## 📘 Today (Day 20)
-- Topic: 10 Best Project Ideas for Beginners
-- Format: Ideas / Planning notes (text)
+## 📘 Today (Day 21)
+- Topic: HashTable with Chaining (Collision Resolution)
+- Language used: JavaScript
 - Key concepts learned:
-  - Choosing small, achievable projects to practice fundamentals
-  - Scoping an MVP and listing core features
-  - Mapping each idea to technologies to learn (frontend, backend, APIs)
-  - Breaking a project into milestones and tasks
-
-- Example beginner projects:
-  1. To‑Do List App — CRUD, localStorage
-  2. Weather App — fetch API, async
-  3. Expense Tracker — state management, charts
-  4. Personal Portfolio Website — HTML/CSS, responsive design
-  5. Simple Blog Platform — CRUD, Markdown support
-  6. Quiz App — timers, scoring logic
-  7. Chat App (starter) — Firebase or WebSockets
-  8. Notes App with Search — indexing/filtering
-  9. Recipe Finder — API integration, filters
-  10. URL Shortener (mini) — basic backend, routing
-
-- Next steps:
-  - Pick 1 idea, define MVP, implement first feature, push daily progress.
+  - Implementing a hash table from scratch using arrays
+  - Hash function using character codes and modulo operator
+  - Collision handling using chaining (array of key-value pairs)
+  - Methods: `set(key, value)`, `get(key)`, `remove(key)`, `count()`
+  - Separate chaining technique for collision resolution
+  - O(1) average time complexity for insertion, lookup, and deletion
+  - Handling key updates (overwriting existing values)
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
 git add README.md
-git commit -m "Day 20: 10 Best Project Ideas for Beginners — update README with today's topic"
+git commit -m "Day 21: HashTable with Chaining (JS) — update README with today's topic"
 git push
 ```
 
