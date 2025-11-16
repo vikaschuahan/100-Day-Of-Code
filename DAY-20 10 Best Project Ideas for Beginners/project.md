@@ -1,7 +1,7 @@
 # 🚀 10 Best Project Ideas for Beginners
 
 A comprehensive guide to project categories and ideas for building your coding portfolio, based on [MySirG's video tutorial](https://youtu.be/nXnc5X5P6YU?si=vYs1Vv-CXU4hSp6k).
-
+.
 ---
 
 ## 📋 Project Categories Overview
