@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-21%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-22%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-21_days-success)
+![Status](https://img.shields.io/badge/Streak-22_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -36,39 +36,41 @@ Daily Code Push Challenge — ship code every day.
 | 19 | Set Data Structure (Map-backed) | JavaScript | ✅ |
 | 20 | 10 Best Project Ideas for Beginners | Ideas / Text | ✅ |
 | 21 | HashTable with Chaining | JavaScript | ✅ |
+| 22 | Project: Stack Visualizer | HTML, CSS, JS | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [█████████████████████░░░░░░░░] 21%
-Days completed: 21 / 100
-Streak: 21 days 🔥
+Progress: [██████████████████████░░░░░░░] 22%
+Days completed: 22 / 100
+Streak: 22 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable)
 - Python (Operators, File I/O, Monkey Patching, CRUD, Markdown)
-- HTML (Forms, Lists, Tables, Basic Structure)
-- CSS (Box Model, Flexbox)
+- HTML (Forms, Lists, Tables, Basic Structure, Interactive UI)
+- CSS (Box Model, Flexbox, Animations, Transitions)
 - Markdown (Documentation, Notes)
 
-## 📘 Today (Day 21)
-- Topic: HashTable with Chaining (Collision Resolution)
-- Language used: JavaScript
+## 📘 Today (Day 22)
+- Topic: Project - Stack Visualizer (Interactive Web App)
+- Language used: HTML, CSS, JavaScript
 - Key concepts learned:
-  - Implementing a hash table from scratch using arrays
-  - Hash function using character codes and modulo operator
-  - Collision handling using chaining (array of key-value pairs)
-  - Methods: `set(key, value)`, `get(key)`, `remove(key)`, `count()`
-  - Separate chaining technique for collision resolution
-  - O(1) average time complexity for insertion, lookup, and deletion
-  - Handling key updates (overwriting existing values)
+  - Building interactive data structure visualizations
+  - DOM manipulation for dynamic UI updates
+  - CSS animations for push/pop operations
+  - Event handling for user interactions
+  - Visual representation of LIFO (Last In First Out) principle
+  - Real-time stack state display
+  - Responsive design for better user experience
+  - Combining data structures knowledge with front-end skills
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
 git add README.md
-git commit -m "Day 21: HashTable with Chaining (JS) — update README with today's topic"
+git commit -m "Day 22: Stack Visualizer (HTML/CSS/JS) — interactive DS visualization project"
 git push
 ```
 
