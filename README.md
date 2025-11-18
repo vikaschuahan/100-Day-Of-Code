@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-22%2F100-blue)
-![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown-orange)
-![Status](https://img.shields.io/badge/Streak-22_days-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-23%2F100-blue)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown%20%7C%20XML-orange)
+![Status](https://img.shields.io/badge/Streak-23_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -37,40 +37,40 @@ Daily Code Push Challenge — ship code every day.
 | 20 | 10 Best Project Ideas for Beginners | Ideas / Text | ✅ |
 | 21 | HashTable with Chaining | JavaScript | ✅ |
 | 22 | Project: Stack Visualizer | HTML, CSS, JS | ✅ |
+| 23 | XML One Shot (XML + XSD) | XML | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [██████████████████████░░░░░░░] 22%
-Days completed: 22 / 100
-Streak: 22 days 🔥
+Progress: [███████████████████████░░░░░░] 23%
+Days completed: 23 / 100
+Streak: 23 days 🔥
 ```
 
 ## 🛠️ Technologies Used
-- JavaScript (Data Structures: Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable)
+- JavaScript (Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable, Visualization)
 - Python (Operators, File I/O, Monkey Patching, CRUD, Markdown)
-- HTML (Forms, Lists, Tables, Basic Structure, Interactive UI)
+- HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
 - Markdown (Documentation, Notes)
+- XML (Structured data, Elements/Attributes, XSD validation)
 
-## 📘 Today (Day 22)
-- Topic: Project - Stack Visualizer (Interactive Web App)
-- Language used: HTML, CSS, JavaScript
-- Key concepts learned:
-  - Building interactive data structure visualizations
-  - DOM manipulation for dynamic UI updates
-  - CSS animations for push/pop operations
-  - Event handling for user interactions
-  - Visual representation of LIFO (Last In First Out) principle
-  - Real-time stack state display
-  - Responsive design for better user experience
-  - Combining data structures knowledge with front-end skills
+## 📘 Today (Day 23)
+- Topic: XML One Shot (XML + XSD)
+- Files: employ.xml, employ.xsd
+- Key concepts:
+  - XML syntax (prolog, elements, nesting, attributes)
+  - Well-formed vs valid XML
+  - Designing a simple employee schema (XSD)
+  - Defining types, restrictions, required vs optional elements
+  - Data interchange and validation workflow
+  - Separation of data (XML) and contract/rules (XSD)
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md
-git commit -m "Day 22: Stack Visualizer (HTML/CSS/JS) — interactive DS visualization project"
+git add README.md "Day-22 XML One Shot/employ.xml" "Day-22 XML One Shot/employ.xsd"
+git commit -m "Day 23: XML One Shot — XML + XSD validation basics"
 git push
 ```
 
