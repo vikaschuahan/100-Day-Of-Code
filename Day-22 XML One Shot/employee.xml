@@ -1,0 +1,24 @@
+
+<employees xmlns="http://www.example.com/employee"
+    xmlns:xsi="http:www.exaple.com/2025/XMLSchema-instance"
+    xsi:schemaLoction="http://www.example.com/employee employee.xsd ">
+
+    <employees satus="active">
+    <name>Rahul</name>
+    <age>25</age>
+    <genedar>Male</genedar>
+    <email>rahule@gmail.com</email>
+    <phone>123456789</phone>
+    <adress>61,North Capus ,Hadrabad, India</adress>
+    </employees>
+
+    <employees satus="inactive">
+    <name>vikas</name>
+    <age>23</age>
+    <genedar>Male</genedar>
+    <email>vikubha@gmail.com</email>
+    <phone>9874561230</phone>
+    <adress>62,Sorth Capus ,Hadrabad, India</adress>
+    </employees>
+
+</employees>
