@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-23%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-24%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown%20%7C%20XML-orange)
-![Status](https://img.shields.io/badge/Streak-23_days-success)
+![Status](https://img.shields.io/badge/Streak-24_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -38,39 +38,43 @@ Daily Code Push Challenge — ship code every day.
 | 21 | HashTable with Chaining | JavaScript | ✅ |
 | 22 | Project: Stack Visualizer | HTML, CSS, JS | ✅ |
 | 23 | XML One Shot (XML + XSD) | XML | ✅ |
+| 24 | Handle XML through Python | Python + XML | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████████████████████░░░░░░] 23%
-Days completed: 23 / 100
-Streak: 23 days 🔥
+Progress: [████████████████████████░░░░░] 24%
+Days completed: 24 / 100
+Streak: 24 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable, Visualization)
-- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown)
+- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing)
 - HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
 - Markdown (Documentation, Notes)
-- XML (Structured data, Elements/Attributes, XSD validation)
+- XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
-## 📘 Today (Day 23)
-- Topic: XML One Shot (XML + XSD)
-- Files: employ.xml, employ.xsd
-- Key concepts:
-  - XML syntax (prolog, elements, nesting, attributes)
-  - Well-formed vs valid XML
-  - Designing a simple employee schema (XSD)
-  - Defining types, restrictions, required vs optional elements
-  - Data interchange and validation workflow
-  - Separation of data (XML) and contract/rules (XSD)
+## 📘 Today (Day 24)
+- Topic: Handle XML through Python
+- Files: employee.xml, XMLReader.py
+- Key concepts learned:
+  - Using `xml.etree.ElementTree` module for XML parsing
+  - Parsing XML files with `ET.parse()` and `getroot()`
+  - Traversing XML tree structure with `findall()` and `find()`
+  - Extracting text content from XML elements using `.text`
+  - Reading XML attributes with `.get()` method
+  - Iterating through XML elements in Python
+  - Handling well-formed XML without namespaces
+  - Debugging XML parsing errors (namespace issues, nested tags)
+  - Formatting and displaying XML data in tabular format
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-22 XML One Shot/employ.xml" "Day-22 XML One Shot/employ.xsd"
-git commit -m "Day 23: XML One Shot — XML + XSD validation basics"
+git add README.md "Day-23 handle XML through Python/employee.xml" "Day-23 handle XML through Python/XMLReader.py"
+git commit -m "Day 24: Handle XML through Python — XML parsing with ElementTree"
 git push
 ```
 
