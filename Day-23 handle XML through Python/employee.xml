@@ -1,25 +1,20 @@
-<employees xmlns=""
-    xmlns:xsi="http:www.exaple.com/2025/XMLSchema-instance"
-    xsi:schemaLoction="http://www.example.com/employee employee.xsd ">
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee status="active">
+        <name>Rahul</name>
+        <age>25</age>
+        <gender>Male</gender>
+        <email>rahule@gmail.com</email>
+        <phone>123456789</phone>
+        <address>61, North Campus, Hyderabad, India</address>
+    </employee>
 
-    <employees>
-        <employee status="active">
-            <name>Rahul</name>
-            <age>25</age>
-            <gender>Male</gender>
-            <email>rahule@gmail.com</email>
-            <phone>123456789</phone>
-            <address>61, North Campus, Hyderabad, India</address>
-        </employee>
-
-        <employee status="inactive">
-            <name>vikas</name>
-            <age>23</age>
-            <gender>Male</gender>
-            <email>vikubha@gmail.com</email>
-            <phone>9874561230</phone>
-            <address>62, South Campus, Hyderabad, India</address>
-        </employee>
-    </employees>
-
+    <employee status="inactive">
+        <name>vikas</name>
+        <age>23</age>
+        <gender>Male</gender>
+        <email>vikubha@gmail.com</email>
+        <phone>9874561230</phone>
+        <address>62, South Campus, Hyderabad, India</address>
+    </employee>
 </employees>
