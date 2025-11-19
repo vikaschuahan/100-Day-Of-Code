@@ -16,7 +16,7 @@ Daily Code Push Challenge — ship code every day.
 | Day | Topic | Language | Status |
 |-----|-------|----------|--------|
 | 1 | GUI Calculator | HTML, CSS, JS | ✅ |
-| 2 | Singly Linked List | JavaScript | ✅ |
+| 2 | Singly Linked List | JavaScript | ✅  |
 | 3 | Soft Keywords | Python | ✅ |
 | 4 | Walrus Operator | Python | ✅ |
 | 5 | Doubly Linked List | JavaScript | ✅ |
