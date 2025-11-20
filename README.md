@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-24%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-25%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown%20%7C%20XML-orange)
-![Status](https://img.shields.io/badge/Streak-24_days-success)
+![Status](https://img.shields.io/badge/Streak-25_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -39,42 +39,42 @@ Daily Code Push Challenge — ship code every day.
 | 22 | Project: Stack Visualizer | HTML, CSS, JS | ✅ |
 | 23 | XML One Shot (XML + XSD) | XML | ✅ |
 | 24 | Handle XML through Python | Python + XML | ✅ |
+| 25 | Python Iterators | Python | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████████████████████░░░░░] 24%
-Days completed: 24 / 100
-Streak: 24 days 🔥
+Progress: [█████████████████████████░░░░] 25%
+Days completed: 25 / 100
+Streak: 25 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable, Visualization)
-- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing)
+- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators)
 - HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
 - Markdown (Documentation, Notes)
 - XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
-## 📘 Today (Day 24)
-- Topic: Handle XML through Python
-- Files: employee.xml, XMLReader.py
+## 📘 Today (Day 25)
+- Topic: Python Iterators
+- Files: A1.py
 - Key concepts learned:
-  - Using `xml.etree.ElementTree` module for XML parsing
-  - Parsing XML files with `ET.parse()` and `getroot()`
-  - Traversing XML tree structure with `findall()` and `find()`
-  - Extracting text content from XML elements using `.text`
-  - Reading XML attributes with `.get()` method
-  - Iterating through XML elements in Python
-  - Handling well-formed XML without namespaces
-  - Debugging XML parsing errors (namespace issues, nested tags)
-  - Formatting and displaying XML data in tabular format
+  - Understanding iterator protocol in Python
+  - Creating custom iterators using `__iter__()` and `__next__()` methods
+  - Implementing iterable objects from scratch
+  - Using `StopIteration` exception to signal end of iteration
+  - Difference between iterables and iterators
+  - Making classes iterable for use in for loops
+  - Building custom iteration logic for data structures
+  - Iterator state management and memory efficiency
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-23 handle XML through Python/employee.xml" "Day-23 handle XML through Python/XMLReader.py"
-git commit -m "Day 24: Handle XML through Python — XML parsing with ElementTree"
+git add README.md "Day-24 Python Iterators/A1.py"
+git commit -m "Day 25: Python Iterators — custom iterator implementation"
 git push
 ```
 
