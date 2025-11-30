@@ -40,7 +40,7 @@ Daily Code Push Challenge — ship code every day.
 | 23 | XML One Shot (XML + XSD) | XML | ✅ |
 | 24 | Handle XML through Python | Python + XML | ✅ |
 | 25 | Python Iterators | Python | ✅ |
-| 26 | How to Make Your Class Iterable | Python | ✅ |
+| 26 | Understanding Generators in Python | Python | ✅ |
 
 ## 📊 Progress
 ```
@@ -51,33 +51,33 @@ Streak: 26 days 🔥
 
 ## 🛠️ Technologies Used
 - JavaScript (Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable, Visualization)
-- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators, Custom Iterables)
+- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators, Generators)
 - HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
 - Markdown (Documentation, Notes)
 - XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
 ## 📘 Today (Day 26)
-- Topic: How to Make Your Class Iterable in Python
-- Files: a1.py
+- Topic: Understanding Generators in Python
+- File: Day-26 Understanding Generators in Python/A1.py
 - Key concepts learned:
-  - Implementing the iterator protocol in custom classes
-  - Creating nested iterator class inside iterable class
-  - Using `__iter__()` to return fresh iterator instances
-  - Implementing `__next__()` with proper state management
-  - Raising `StopIteration` to signal end of iteration
-  - Maintaining separate iteration state (`beg`) from class attributes
-  - Making objects reusable in multiple for loops
-  - Understanding difference between iterable (has `__iter__`) and iterator (has `__next__`)
-  - Building Counter class with custom start and end range
-  - Iterator pattern for creating custom sequences
+  - Generator functions using yield
+  - Lazy evaluation vs building full lists
+  - Difference: iterator protocol vs syntactic sugar of generators
+  - Prime number generator implementation
+  - Helper functions: isPrime(), nextPrime()
+  - Memory efficiency (generate N primes without storing all candidates)
+  - Using generator in list comprehension: [p for p in primeGenerator(10)]
+  - Raising StopIteration automatically when function exhausts
+  - Avoiding logic bug (early return in isPrime loop)
+  - Refactoring isPrime to stop at sqrt(n)
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-25 How to Make Your Class Iterable in Python/a1.py"
-git commit -m "Day 26: How to Make Your Class Iterable — nested iterator pattern"
+git add README.md "Day-26 Understanding Generators in Python/A1.py"
+git commit -m "Day 26: Understanding Generators in Python — prime generator + yield usage"
 git push
 ```
 
