@@ -1,3 +1,15 @@
 body{
     background-color: #333;
+    color: white;
 }
+
+.head{
+    text-align: center;
+    color: orange;
+
+}
+
+.text-orange{
+    color: orange;
+}
+
