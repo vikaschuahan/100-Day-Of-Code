@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-26%2F100-blue)
-![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Markdown%20%7C%20XML-orange)
-![Status](https://img.shields.io/badge/Streak-26_days-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-27%2F100-blue)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Tailwind%20%7C%20Markdown%20%7C%20XML-orange)
+![Status](https://img.shields.io/badge/Streak-27_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -41,12 +41,13 @@ Daily Code Push Challenge — ship code every day.
 | 24 | Handle XML through Python | Python + XML | ✅ |
 | 25 | Python Iterators | Python | ✅ |
 | 26 | Understanding Generators in Python | Python | ✅ |
+| 27 | Tailwind CSS One Shot | HTML, Tailwind CSS | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [██████████████████████████░░░] 26%
-Days completed: 26 / 100
-Streak: 26 days 🔥
+Progress: [███████████████████████████░░] 27%
+Days completed: 27 / 100
+Streak: 27 days 🔥
 ```
 
 ## 🛠️ Technologies Used
@@ -54,30 +55,32 @@ Streak: 26 days 🔥
 - Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators, Generators)
 - HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
+- Tailwind CSS (Utility-first framework, Responsive design, Custom components)
 - Markdown (Documentation, Notes)
 - XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
-## 📘 Today (Day 26)
-- Topic: Understanding Generators in Python
-- File: Day-26 Understanding Generators in Python/A1.py
+## 📘 Today (Day 27)
+- Topic: Tailwind CSS One Shot
+- Files: index.html, styles.css
 - Key concepts learned:
-  - Generator functions using yield
-  - Lazy evaluation vs building full lists
-  - Difference: iterator protocol vs syntactic sugar of generators
-  - Prime number generator implementation
-  - Helper functions: isPrime(), nextPrime()
-  - Memory efficiency (generate N primes without storing all candidates)
-  - Using generator in list comprehension: [p for p in primeGenerator(10)]
-  - Raising StopIteration automatically when function exhausts
-  - Avoiding logic bug (early return in isPrime loop)
-  - Refactoring isPrime to stop at sqrt(n)
+  - Utility-first CSS framework fundamentals
+  - Using CDN for quick Tailwind CSS setup
+  - Responsive design with Tailwind breakpoints (sm, md, lg, xl)
+  - Flexbox and Grid utilities
+  - Spacing system (padding, margin with p-, m- classes)
+  - Color palette and customization
+  - Typography utilities (font-size, font-weight, text-color)
+  - Border and shadow utilities
+  - Hover, focus, and other state variants
+  - Building components with utility classes
+  - Advantages: faster development, smaller CSS, consistent design
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-26 Understanding Generators in Python/A1.py"
-git commit -m "Day 26: Understanding Generators in Python — prime generator + yield usage"
+git add README.md "Day-27 Tailwind CSS one shot/index.html" "Day-27 Tailwind CSS one shot/styles.css"
+git commit -m "Day 27: Tailwind CSS One Shot — utility-first CSS framework"
 git push
 ```
 
