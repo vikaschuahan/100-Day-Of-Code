@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-27%2F100-blue)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-28%2F100-blue)
 ![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Tailwind%20%7C%20Markdown%20%7C%20XML-orange)
-![Status](https://img.shields.io/badge/Streak-27_days-success)
+![Status](https://img.shields.io/badge/Streak-28_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -42,12 +42,13 @@ Daily Code Push Challenge — ship code every day.
 | 25 | Python Iterators | Python | ✅ |
 | 26 | Understanding Generators in Python | Python | ✅ |
 | 27 | Tailwind CSS One Shot | HTML, Tailwind CSS | ✅ |
+| 28 | Modern Login Form (Tailwind) | HTML, Tailwind CSS | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [███████████████████████████░░] 27%
-Days completed: 27 / 100
-Streak: 27 days 🔥
+Progress: [████████████████████████████░] 28%
+Days completed: 28 / 100
+Streak: 28 days 🔥
 ```
 
 ## 🛠️ Technologies Used
@@ -59,28 +60,24 @@ Streak: 27 days 🔥
 - Markdown (Documentation, Notes)
 - XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
-## 📘 Today (Day 27)
-- Topic: Tailwind CSS One Shot
-- Files: index.html, styles.css
+## 📘 Today (Day 28)
+- Topic: Modern Login Form Using Tailwind CSS
+- File: Day-28 Modern Login Form Using Tailwind CSS/index.html
 - Key concepts learned:
-  - Utility-first CSS framework fundamentals
-  - Using CDN for quick Tailwind CSS setup
-  - Responsive design with Tailwind breakpoints (sm, md, lg, xl)
-  - Flexbox and Grid utilities
-  - Spacing system (padding, margin with p-, m- classes)
-  - Color palette and customization
-  - Typography utilities (font-size, font-weight, text-color)
-  - Border and shadow utilities
-  - Hover, focus, and other state variants
-  - Building components with utility classes
-  - Advantages: faster development, smaller CSS, consistent design
+  - Building an accessible, responsive auth card with Tailwind
+  - Floating labels via `peer` and placeholder tricks
+  - Show/Hide password toggle with minimal JS
+  - Form semantics: labels, autocomplete, ARIA
+  - Buttons, states, and hover/focus variants
+  - OAuth button group and divider pattern
+  - Utility-first approach for spacing, layout, and typography
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-27 Tailwind CSS one shot/index.html" "Day-27 Tailwind CSS one shot/styles.css"
-git commit -m "Day 27: Tailwind CSS One Shot — utility-first CSS framework"
+git add README.md "Day-28 Modern Login Form Using Tailwind CSS/index.html"
+git commit -m "Day 28: Modern Login Form (Tailwind) — accessible, responsive auth UI"
 git push
 ```
 
