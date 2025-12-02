@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Modern Login — Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { brand: { 500: '#6366f1', 600: '#4f46e5' } }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-800">
+  <main class="grid min-h-screen place-items-center px-4">
+    <section class="w-full max-w-md">
+      <!-- Card -->
+      <div class="rounded-2xl border bg-white shadow-sm">
+        <div class="px-6 pt-6 text-center">
+          <a href="#" class="inline-flex items-center gap-2 font-semibold text-brand-600">
+            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+            Tailwind Auth
+          </a>
+          <p class="mt-2 text-sm text-gray-600">Sign in to your account</p>
+        </div>
+
+        <div class="px-6 pb-6 pt-4">
+          <form class="space-y-4" action="#" method="post" novalidate>
+            <!-- Email -->
+            <div>
+              <label for="email" class="sr-only">Email</label>
+              <div class="relative">
+                <input id="email" name="email" type="email" autocomplete="email" required
+                  class="peer w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm outline-none ring-brand-600 focus:border-brand-600 focus:ring-2"
+                  placeholder=" ">
+                <span class="pointer-events-none absolute left-3 top-2.5 -translate-y-1/2 bg-white px-1 text-xs text-gray-500 transition
+                  peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2.5 peer-focus:text-xs">
+                  Email address
+                </span>
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div>
+              <label for="password" class="sr-only">Password</label>
+              <div class="relative">
+                <input id="password" name="password" type="password" autocomplete="current-password" required
+                  class="peer w-full rounded-lg border border-gray-300 bg-white px-4 py-3 pr-12 text-sm outline-none ring-brand-600 focus:border-brand-600 focus:ring-2"
+                  placeholder=" ">
+                <span class="pointer-events-none absolute left-3 top-2.5 -translate-y-1/2 bg-white px-1 text-xs text-gray-500 transition
+                  peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2.5 peer-focus:text-xs">
+                  Password
+                </span>
+                <!-- Show/Hide -->
+                <button type="button" id="toggle-password"
+                  class="absolute right-2 top-1/2 -translate-y-1/2 rounded p-2 text-gray-500 hover:bg-gray-100"
+                  aria-label="Show password">
+                  <svg id="eye-open" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                  <svg id="eye-closed" class="hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3l18 18M10.73 5.08A10.46 10.46 0 0 1 12 5c7 0 11 7 11 7a18.8 18.8 0 0 1-4.24 5.26M6.53 6.53A18.54 18.54 0 0 0 1 12s4 7 11 7c1.49 0 2.87-.28 4.12-.77"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Options -->
+            <div class="flex items-center justify-between">
+              <label class="inline-flex items-center gap-2 text-sm text-gray-700">
+                <input type="checkbox" name="remember" class="h-4 w-4 rounded border-gray-300 text-brand-600 focus:ring-brand-600">
+                Remember me
+              </label>
+              <a href="#" class="text-sm font-medium text-brand-600 hover:underline">Forgot password?</a>
+            </div>
+
+            <!-- CTA -->
+            <button type="submit"
+              class="w-full rounded-lg bg-brand-600 px-4 py-2.5 text-white font-semibold shadow hover:bg-brand-500">
+              Sign in
+            </button>
+
+            <!-- Divider -->
+            <div class="relative my-4">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t"></div>
+              </div>
+              <div class="relative flex justify-center">
+                <span class="bg-white px-3 text-xs text-gray-500">Or continue with</span>
+              </div>
+            </div>
+
+            <!-- OAuth -->
+            <div class="grid grid-cols-3 gap-2">
+              <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-gray-50">
+                <img alt="Google" class="h-4 w-4" src="https://www.svgrepo.com/show/475656/google-color.svg"> Google
+              </button>
+              <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-gray-50">
+                <img alt="GitHub" class="h-4 w-4" src="https://www.svgrepo.com/show/475654/github-color.svg"> GitHub
+              </button>
+              <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-gray-50">
+                <img alt="Facebook" class="h-4 w-4" src="https://www.svgrepo.com/show/475647/facebook-color.svg"> Facebook
+              </button>
+            </div>
+          </form>
+
+          <!-- Signup link -->
+          <p class="mt-6 text-center text-sm text-gray-600">
+            Don’t have an account?
+            <a href="#" class="font-medium text-brand-600 hover:underline">Create one</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer note -->
+      <p class="mt-4 text-center text-xs text-gray-500">
+        By continuing, you agree to our Terms and Privacy Policy.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    // Show/Hide password
+    const pwd = document.getElementById('password');
+    const btn = document.getElementById('toggle-password');
+    const eyeOpen = document.getElementById('eye-open');
+    const eyeClosed = document.getElementById('eye-closed');
+    btn?.addEventListener('click', () => {
+      const isHidden = pwd.type === 'password';
+      pwd.type = isHidden ? 'text' : 'password';
+      eyeOpen.classList.toggle('hidden', !isHidden);
+      eyeClosed.classList.toggle('hidden', isHidden);
+      btn.setAttribute('aria-label', isHidden ? 'Hide password' : 'Show password');
+    });
+  </script>
+</body>
+</html>
