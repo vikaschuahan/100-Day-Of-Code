@@ -1,8 +1,8 @@
 # 100 Day Of Code Challenge 🚀
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-28%2F100-blue)
-![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20HTML%20%7C%20CSS%20%7C%20Tailwind%20%7C%20Markdown%20%7C%20XML-orange)
-![Status](https://img.shields.io/badge/Streak-28_days-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-29%2F100-blue)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python%20%7C%20C%20%7C%20HTML%20%7C%20CSS%20%7C%20Tailwind%20%7C%20Markdown%20%7C%20XML-orange)
+![Status](https://img.shields.io/badge/Streak-29_days-success)
 
 Daily Code Push Challenge — ship code every day.
 
@@ -43,41 +43,44 @@ Daily Code Push Challenge — ship code every day.
 | 26 | Understanding Generators in Python | Python | ✅ |
 | 27 | Tailwind CSS One Shot | HTML, Tailwind CSS | ✅ |
 | 28 | Modern Login Form (Tailwind) | HTML, Tailwind CSS | ✅ |
+| 29 | Run C Code from Python Like a Pro! | Python + C | ✅ |
 
 ## 📊 Progress
 ```
-Progress: [████████████████████████████░] 28%
-Days completed: 28 / 100
-Streak: 28 days 🔥
+Progress: [█████████████████████████████] 29%
+Days completed: 29 / 100
+Streak: 29 days 🔥
 ```
 
 ## 🛠️ Technologies Used
 - JavaScript (Linked Lists, Stack, Queue, Deque, Heap, Priority Queue, Set, HashTable, Visualization)
-- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators, Generators)
+- Python (Operators, File I/O, Monkey Patching, CRUD, Markdown, XML Parsing, Iterators, Generators, ctypes)
+- C (Shared libraries, FFI integration with Python)
 - HTML (Forms, Lists, Tables, Structure, Interactive UI)
 - CSS (Box Model, Flexbox, Animations, Transitions)
 - Tailwind CSS (Utility-first framework, Responsive design, Custom components)
 - Markdown (Documentation, Notes)
 - XML (Structured data, Elements/Attributes, XSD validation, Python parsing)
 
-## 📘 Today (Day 28)
-- Topic: Modern Login Form Using Tailwind CSS
-- File: Day-28 Modern Login Form Using Tailwind CSS/index.html
+## 📘 Today (Day 29)
+- Topic: Run C Code from Python Like a Pro!
+- Files: A1.py, c.c
 - Key concepts learned:
-  - Building an accessible, responsive auth card with Tailwind
-  - Floating labels via `peer` and placeholder tricks
-  - Show/Hide password toggle with minimal JS
-  - Form semantics: labels, autocomplete, ARIA
-  - Buttons, states, and hover/focus variants
-  - OAuth button group and divider pattern
-  - Utility-first approach for spacing, layout, and typography
+  - Using Python's ctypes library for Foreign Function Interface (FFI)
+  - Compiling C code into shared libraries (.dll on Windows, .so on Linux)
+  - Loading shared libraries with ctypes.CDLL()
+  - Calling C functions from Python
+  - Type mapping between Python and C (c_int, c_float, c_char_p)
+  - Setting argtypes and restype for type safety
+  - Performance benefits of C for compute-intensive tasks
+  - Integration patterns: Python for logic, C for speed
 
 ## 🔄 Daily Push Command
 ```powershell
 cd "d:\100 days Of Code"
 git pull
-git add README.md "Day-28 Modern Login Form Using Tailwind CSS/index.html"
-git commit -m "Day 28: Modern Login Form (Tailwind) — accessible, responsive auth UI"
+git add README.md "Day-29 Run C Code from Python Like a Pro!/A1.py" "Day-29 Run C Code from Python Like a Pro!/c.c"
+git commit -m "Day 29: Run C Code from Python — ctypes FFI integration"
 git push
 ```
 
